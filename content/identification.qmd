@@ -16,9 +16,9 @@ While the acoustic properties of swimbladder fish depends on several factors, th
 
 − 13.51 \< `Sv` 200kHz − `Sv` 38kHz \< 12.53
 
-#### **The automated CPS processing in 'Echoview' filters for all CPS meeting the criteria above, however some non-CPS targets still pass through the filter, specifically fishes like rockfish. To remove these CPS-like targets, we manually review each exported Echoview echogram.** 
+#### **The automated CPS processing in 'Echoview' filters for all CPS meeting the criteria above, however some non-CPS targets still pass through the filter, specifically fishes like rockfish. To remove these CPS-like targets, we manually review each exported Echoview echogram.**
 
-#### **Below is how we do that.** 
+#### **Below is how we do that.**
 
 Using the 'extract_CPS_NASC.R', an R-based tool in the 'estimATM' package, we remove non-CPS targets from final echograms. This process aims to distinguish CPS from non-target species from mid-water, demersal, and benthic swim bladder fishes.
 
